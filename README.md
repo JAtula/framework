@@ -1,10 +1,10 @@
 # Cloud provider agnostic
 ## Framework for microservice web development with mostly OSS tools
-The idea of this document is to answer the following architectural and design parameters about a complete framework for web app development. The app would live in the cloud, but the design is cloud provider agnostic (as much as possible) so there's no provider lock-in. All the tools are such, that I've used before in production or demo purposes.
+The idea of this document is to answer the following architectural and design parameters about a complete framework for web app development. The app would live in the cloud, but the design is cloud provider agnostic (as much as possible) so there's no provider lock-in. All the tools are such, that I've used before in production and demo purposes or read about extensively.
 
 * The service is web-based that end users use with any modern browser.
 * The service has to be cloud provider agnostic.
-* The app follows the rules of the 12-factor app (as much as possible). Read the 12-factor app manifesto [here] (https://12factor.net/).
+* The app follows the rules of the 12-factor app (as much as possible). Read the 12-factor app manifesto [here](https://12factor.net/).
 * The backend has many different DBs that have to be backed up automatically.
 * The app has to have an ACL controlled API layer.
 * For development reasons, many versions of the app need to be available for the stake holders.
