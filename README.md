@@ -67,3 +67,4 @@ I haven't touched testing at all, and even though it's not part of the framework
 
 ## An example drawing deployed to GCP
 
+![Drawing](https://github.com/JAtula/framework/blob/master/diagram.png?raw=true "draw.io drawing")
